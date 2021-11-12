@@ -63,9 +63,8 @@ Graphic <- ggplot(data = Resultmovies,
                    axis.title.y = element_text(color = "Purple", size=20),
                    legend.title = element_text(color="Black",size=16 ),
                    plot.title =  element_text(color = "DarkBlue", size = 25, hjust = 0.5 )
-                
-                   )
-  
+           )</code>
+  <code>
 Graphic + geom_boxplot()
 
 Graphic + geom_jitter(aes( size = BudgetMill, color=Studio )) + geom_boxplot(aes(),alpha=0.8, outlier.colour = NA ) 
