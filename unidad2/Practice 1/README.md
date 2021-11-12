@@ -43,7 +43,7 @@ ggplot(movies, aes(x=CriticRating, y=AudienceRating,
                    color=Genre, size=BudgetMillions)) + 
   geom_jitter()
 ```
-![alt text] (https://github.com/isarari99/Data-Mining-Ramos/blob/master/unidad2/Practice%201/Grafic%201.png)
+![alt text] (https://raw.githubusercontent.com/isarari99/Data-Mining-Ramos/master/unidad2/Practice%201/Grafic%201.png)
 
 ### 2) geom_hex()
 ```r
@@ -51,7 +51,7 @@ ggplot(movies, aes(x=CriticRating, y=AudienceRating,
                    color=Genre, size=BudgetMillions)) + 	
   geom_hex()
 ```
-![alt text] (https://github.com/isarari99/Data-Mining-Ramos/blob/master/unidad2/Practice%201/Grafic%202.png)
+![alt text] (https://raw.githubusercontent.com/isarari99/Data-Mining-Ramos/master/unidad2/Practice%201/Grafic%202.png)
 
 
 ### 3) geom_polygon()
@@ -60,6 +60,6 @@ ggplot(movies, aes(x=CriticRating, y=AudienceRating,
                    color=Genre, size=BudgetMillions)) + 	
   geom_polygon()
 ```
-![alt text] (https://github.com/isarari99/Data-Mining-Ramos/blob/master/unidad2/Practice%201/Grafic%203.png)
+![alt text] (https://raw.githubusercontent.com/isarari99/Data-Mining-Ramos/master/unidad2/Practice%201/Grafic%203.png)
 
 
