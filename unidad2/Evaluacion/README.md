@@ -63,7 +63,7 @@ Graphic <- ggplot(data = Resultmovies,
                    axis.title.y = element_text(color = "Purple", size=20),
                    legend.title = element_text(color="Black",size=16 ),
                    plot.title =  element_text(color = "DarkBlue", size = 25, hjust = 0.5 )
-           )</code>
+           )</code><br>
   <code>
 Graphic + geom_boxplot()
 
